@@ -1,0 +1,22 @@
+<mat-sidenav-container class="example-container" *ngIf="shouldRun">
+  <mat-sidenav mode="side" opened>
+    <ul>
+      <li>Hello 1</li>      
+      <li>Hello 1</li>      
+      <li>Hello 1</li>      
+      <li>Hello 1</li>      
+    </ul>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <ul>
+      <li>Main 1</li>
+    </ul>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<div *ngIf="!shouldRun">Please open on Stackblitz to see result</div>
+
+
+<!-- Copyright 2022 Google LLC. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at https://angular.io/license -->
